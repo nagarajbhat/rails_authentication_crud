@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsSimpleAuthentication</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%if flash[:notice]%>
+	<div id="notice"><p><%=flash[:notice]%><p></div>
+<%end%>
+
+<%if current_user%>
+	<p><%= current_user.email %></p> 
+	<p class="signup-bt"><%= link_to 'logout',  logout_path,  method: "delete", data: { confirm: 'Are you sure?' } %></p>
+
+
+<%else%>
+<p class="signup-bt"><%=link_to "Sign up",new_user_path%></br>
+<%=link_to "log in",'/login'%><br></p>
+<%end%>
+
+
+<%= yield %>
+
+</body>
+</html>
