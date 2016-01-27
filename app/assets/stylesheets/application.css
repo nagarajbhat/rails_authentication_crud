@@ -14,17 +14,58 @@
  *= require_self
  */
 
-.signup-bt{
+#headrow{
+	//height:10em;
+}
+
+.floatright-btn{
 	float:right;
 }
-
-
-.btn-submit{
-	background-color:#BBAADD;
+.formboxes{
+	
+	
+	font-size:1.5em;
+	margin:.5em;
+}
+.status{
+	color:red;
+	margin:1em;
+	font-size:1.2em;
+	width:16em;
+	
+	//margin-bottom: 1em;
+}
+.status-row{
+	padding:1em;
+}
+submit{
+  color:red;
 }
 
-#notice>p{
+#useremailid{
+	
 	color:red;
-	font-style:italics;
+}
+
+
+.flash>p{
+	color:green;
+	margin: 0 auto;
+	border: 0.1em solid green;
+	text-align: center
 	
 }
+
+#yield1{
+	
+	margin:0 auto;
+	//text-align: center;
+
+}
+
+.btn btn-success{
+	text-align: center;
+	margin: 0 auto;
+	color: red;
+}
+

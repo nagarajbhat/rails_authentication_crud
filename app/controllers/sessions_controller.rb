@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
-	def new
 
+	def new
+		
 		
 	end
 	def create
@@ -14,8 +15,11 @@ class SessionsController < ApplicationController
 	end
 
 	def destroy
-		session[:user_id] = nil if session[:user_id]
-		
+
+		session[:user_id] = nil 
+		reset_session
 		redirect_to '/login' ,notice: "you have successfully logged out of your account"
+	end
+	def index 
 	end
 end
