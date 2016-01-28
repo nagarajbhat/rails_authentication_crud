@@ -1,3 +1,54 @@
+
+README
+======
+
+Steps to get started
+--------------------
+
+#### Copy the git repository in your local machine
+
+	git clone https://github.com/nagarajbhat/rails_authentication_crud.git
+
+#### Enter into the app directory
+
+	cd rails_authentication_crud
+
+#### Install the dependencies specified in your Gemfile
+
+	bundle install
+
+#### Perform migration
+
+	rake db:migrate
+
+#### Start the server
+
+	rails s
+
+#### Open up the web browser and go to "localhost:3000"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
