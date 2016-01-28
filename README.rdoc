@@ -1,56 +1,28 @@
+== README
 
-=README
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
+Things you may want to cover:
 
-==Steps to get started
+* Ruby version
 
+* System dependencies
 
-1. Copy the git repository in your local machine
+* Configuration
 
-	+git clone https://github.com/nagarajbhat/rails_authentication_crud.git+
+* Database creation
 
+* Database initialization
 
-2. Enter into the app directory
+* How to run the test suite
 
-	+cd rails_authentication_crud+
+* Services (job queues, cache servers, search engines, etc.)
 
+* Deployment instructions
 
-3. Install the dependencies specified in your Gemfile
-
-	+bundle install+
-
-
-4. Perform migration
-
-	+rake db:migrate+
-
-
-5. Start the server
-
-	+rails s+
+* ...
 
 
-6. Open up the web browser and go to "localhost:3000"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
