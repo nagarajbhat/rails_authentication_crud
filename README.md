@@ -32,6 +32,6 @@ Steps to get started
 		$ rails s
 
 
-6. Open up the web browser and go to "localhost:3000"
+6. Open up the web browser and go to "http://localhost:3000"
 
 
